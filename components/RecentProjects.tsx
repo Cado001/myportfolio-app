@@ -30,7 +30,7 @@ const RecentProjects = () => {
                   <Image 
                   src="/bg.png" 
                   alt="bgimg" 
-                  fill 
+                  layout="fill"
                   style={{ objectFit: 'cover'}}
                   priority
                   />
@@ -76,7 +76,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check OutLive Site
+                    Check Out Live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
